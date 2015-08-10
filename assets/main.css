@@ -1,5 +1,5 @@
 .layout-transparent {
-  background: url('/assets/bg.jpg') center / cover;
+  background: url('../assets/bg.jpg') center / cover;
 }
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
@@ -37,4 +37,7 @@
 
 .mdl-layout__drawer .mdl-layout-title a {
   color: #424242;
+}
+.is-small-screen .mdl-layout__content {
+  padding-top: 64px;
 }
