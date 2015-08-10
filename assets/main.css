@@ -28,6 +28,13 @@
   margin: 0 auto;
 }
 .mdl-layout-title a {
-  color: white;
   text-decoration: none;
+}
+
+.mdl-layout__header-row .mdl-layout-title a {
+  color: white;
+}
+
+.mdl-layout__drawer .mdl-layout-title a {
+  color: #424242;
 }
