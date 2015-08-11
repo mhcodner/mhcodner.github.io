@@ -1,43 +1,46 @@
 .layout-transparent {
-  background: url('../assets/bg.jpg') center / cover;
+    background: url('../assets/bg.jpg') center / cover;
 }
-.layout-transparent .mdl-layout__header,
-.layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
+
+    .layout-transparent .mdl-layout__header,
+    .layout-transparent .mdl-layout__drawer-button {
+        /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-  color: white;
-}
+        color: white;
+    }
+
 .demo-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  background: url('../assets/image_card.jpg') center / cover;
+    width: 256px;
+    height: 256px;
+    background: url('../assets/image_card.jpg') center / cover;
 }
+
 .demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
 }
+
 .demo-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
 }
+
 .container {
-  max-width: 1400px;
-  width: calc(100% - 30px);
-  margin: 0 auto;
+    max-width: 1400px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
 }
+
 .mdl-layout-title a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .mdl-layout__header-row .mdl-layout-title a {
-  color: white;
+    color: white;
 }
 
 .mdl-layout__drawer .mdl-layout-title a {
-  color: #424242;
-}
-.is-small-screen .mdl-layout__content {
-  padding-top: 64px;
+    color: #424242;
 }
