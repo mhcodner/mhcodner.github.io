@@ -32,3 +32,10 @@ paginate: 3
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
