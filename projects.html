@@ -1,5 +1,6 @@
 ﻿<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link href="/assets/css/skeleton.css" rel="stylesheet" />
     <link href="/assets/css/main.css" rel="stylesheet" />
 </head>
+
 <body>
     <main>
         <div class="menu"><span id="menu-button" class=""><i class="material-icons">menu</i></span></div>
@@ -19,8 +21,12 @@
                 <h1 class="logo">Michael Codner</h1>
                 <ul class="iconLinks">
                     <li><a href="/projects" class="active fade-to-white nav-link"><span><i class="material-icons">view_list</i></span> Projects</a></li>
-                    <li><a href="https://github.com/mhcodner/" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">computer</i></span> GitHub</a></li>
-                    <li><a href="https://au.linkedin.com/in/mhcodner" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">account_box</i></span> LinkedIn</a></li>
+                    <li>
+                        <a href="https://github.com/mhcodner/" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">computer</i></span> GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://au.linkedin.com/in/mhcodner" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">account_box</i></span> LinkedIn</a>
+                    </li>
                     <!--<li><a href="/contact" class="fade-to-white nav-link"><span class=""><i class="material-icons">mail</i></span> Contact</a></li>-->
                 </ul>
             </div>
@@ -35,13 +41,12 @@
                 </div>
                 <div class="row project__container">
                     <div class="columns five project__title">
-                        <img class="u-max-full-width" src="http://placehold.it/640x300" alt="Project screenshot">
+                        <img class="u-max-full-width" src="/assets/img/GLPC-Home.png" alt="Project screenshot">
                     </div>
                     <div class="columns seven project__description">
                         <h4>GLPC SMS Service</h4>
                         <p>
-                            Website created for Gymea Lily Psychotherapy Centre as the frontend to a service I wrote which automates
-                            their daily task of sending SMS reminders for appointments the following business day.
+                            Website created for Gymea Lily Psychotherapy Centre as the frontend to a service I wrote which automates their daily task of sending SMS reminders for appointments the following business day. This reduced the time required for that task from about 2 hours to about 30 seconds.
                         </p>
                         <p>
                             <strong>Technology used:</strong>
@@ -64,8 +69,7 @@
                     <div class="columns seven project__description">
                         <h4>Cronulla High School Website</h4>
                         <p>
-                            Custom WordPress theme based on Bootstrap with an integrated event calendar and custom anti-spam contact
-                            form.
+                            Custom WordPress theme based on Bootstrap with an integrated event calendar and custom anti-spam contact form.
                         </p>
                         <a href="http://web1.cronulla-h.schools.nsw.edu.au" target="_blank" class="button">Live site</a>
                     </div>
@@ -78,9 +82,7 @@
                     <div class="columns seven project__description">
                         <h4>Cronulla High School Intranet Site</h4>
                         <p>
-                            Intranet site created as a portal for information for the whole school. The site uses ASP.NET Web Pages 
-                            with Windows Authentication to control access and display relevant information to students and teachers. 
-                            The intranet site also parses the iCal feed from their website to display a list of upcoming events.
+                            Intranet site created as a portal for information for the whole school. The site uses ASP.NET Web Pages with Windows Authentication to control access and display relevant information to students and teachers. The intranet site also parses the iCal feed from their website to display a list of upcoming events.
                         </p>
                         <p>
                             <strong>Technology used:</strong>
@@ -98,46 +100,50 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>
-            function startIt() {
-                var menu = $(".menu");
-                var navContainer = $(".nav-container");
-                function sideNav() {
-                    navContainer.removeClass("nav-container__full").addClass("nav-container__side");
-                }
-                function hideNav() {
-                    var w = window.innerWidth;
-                    if (w < 900) {
-                        navContainer.toggleClass("nav-hidden-left");
-                        menu.toggleClass("hidden");
-                    } else {
-                        navContainer.addClass("nav-hidden-left");
-                        menu.removeClass("hidden");
-                    }
-                }
-                function menuText() {
-                    if (menu.text() == "X") {
-                        menu.text("Menu");
-                    } else {
-                        menu.text("X");
-                    }
-                }
-                menu.click(function () {
-                    hideNav();
-                    sideNav();
-                });
-                var navLink = $(".nav-link");
-                navLink.on("click", function (e) {
-                    hideNav();
-                });
-                var projLink = $("#projects");
-                projLink.on("click", function (e) {
-                    hideNav();
-                });
+        function startIt() {
+            var menu = $(".menu");
+            var navContainer = $(".nav-container");
+
+            function sideNav() {
+                navContainer.removeClass("nav-container__full").addClass("nav-container__side");
             }
-            document.addEventListener("DOMContentLoaded", function (event) {
-                startIt();
+
+            function hideNav() {
+                var w = window.innerWidth;
+                if (w < 900) {
+                    navContainer.toggleClass("nav-hidden-left");
+                    menu.toggleClass("hidden");
+                } else {
+                    navContainer.addClass("nav-hidden-left");
+                    menu.removeClass("hidden");
+                }
+            }
+
+            function menuText() {
+                if (menu.text() == "X") {
+                    menu.text("Menu");
+                } else {
+                    menu.text("X");
+                }
+            }
+            menu.click(function() {
+                hideNav();
+                sideNav();
             });
+            var navLink = $(".nav-link");
+            navLink.on("click", function(e) {
+                hideNav();
+            });
+            var projLink = $("#projects");
+            projLink.on("click", function(e) {
+                hideNav();
+            });
+        }
+        document.addEventListener("DOMContentLoaded", function(event) {
+            startIt();
+        });
         </script>
     </main>
 </body>
+
 </html>
