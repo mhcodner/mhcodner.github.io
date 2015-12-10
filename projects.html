@@ -22,10 +22,10 @@
                 <ul class="iconLinks">
                     <li><a href="/projects" class="active fade-to-white nav-link"><span><i class="material-icons">view_list</i></span> Projects</a></li>
                     <li>
-                        <a href="https://github.com/mhcodner/" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">computer</i></span> GitHub</a>
+                        <a href="https://github.com/mhcodner/" target="_blank" onclick="trackOutboundLink('https://github.com/mhcodner/'); return false;" class="fade-to-white nav-link"><span class=""><i class="material-icons">computer</i></span> GitHub</a>
                     </li>
                     <li>
-                        <a href="https://au.linkedin.com/in/mhcodner" target="_blank" class="fade-to-white nav-link"><span class=""><i class="material-icons">account_box</i></span> LinkedIn</a>
+                        <a href="https://au.linkedin.com/in/mhcodner" target="_blank" onclick="trackOutboundLink('https://au.linkedin.com/in/mhcodner'); return false;" class="fade-to-white nav-link"><span class=""><i class="material-icons">account_box</i></span> LinkedIn</a>
                     </li>
                     <!--<li><a href="/contact" class="fade-to-white nav-link"><span class=""><i class="material-icons">mail</i></span> Contact</a></li>-->
                 </ul>
@@ -53,7 +53,7 @@
                             <li>ASP.NET Web API</li>
                             <li>ASP.NET Identity</li>
                             <li>ASP.NET SignalR</li>
-                            <li><a href="http://dogfalo.github.io/materialize/">Materialize</a> CSS Framework</li>
+                            <li><a href="http://dogfalo.github.io/materialize/" target="_blank" onclick="trackOutboundLink('http://dogfalo.github.io/materialize/'); return false;">Materialize</a> CSS Framework</li>
                             <li>KnockoutJS</li>
                         </ul>
                         <!--<a href="javascript:void(0);" class="button">Further Screenshots</a>-->
@@ -69,7 +69,7 @@
                         <p>
                             Custom WordPress theme based on Bootstrap with an integrated event calendar and custom anti-spam contact form.
                         </p>
-                        <a href="http://web1.cronulla-h.schools.nsw.edu.au" target="_blank" class="button">Live site</a>
+                        <a href="http://web1.cronulla-h.schools.nsw.edu.au" target="_blank" onclick="trackOutboundLink('http://web1.cronulla-h.schools.nsw.edu.au'); return false;" class="button">Live site</a>
                     </div>
                 </div>
                 <hr>
@@ -154,6 +154,14 @@
 
         ga('create', 'UA-71255708-1', 'auto');
         ga('send', 'pageview');
+
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'hitCallback': function() {
+                    document.location = url;
+                }
+            });
+        }
         </script>
     </main>
 </body>
