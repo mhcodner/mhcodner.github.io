@@ -876,14 +876,7 @@
 					outline: 0;
 					border: 0;
 
-					&:before {
-						font-family: FontAwesome;
-						text-decoration: none;
-						font-style: normal;
-						font-weight: normal;
-						-webkit-font-smoothing: antialiased;
-						-moz-osx-font-smoothing: grayscale;
-						content: '\f0c9';
+					i {
 						color: #fff;
 						font-size: 18px;
 						line-height: 2.25em;

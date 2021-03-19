@@ -11,7 +11,7 @@ export default function TopNav({ title, onMenuClick = () => {} }) {
           onMenuClick();
         }}
       >
-        {' '}
+        <i className="fas fa-bars"></i>
       </a>
     </div>
   );
