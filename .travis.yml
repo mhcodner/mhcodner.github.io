@@ -1,7 +1,6 @@
 language: node_js
 before_script:
   - "npm i -g gatsby"
-  - "npm i"
 node_js:
   - "stable"
 deploy:
@@ -13,6 +12,7 @@ deploy:
   on:
     branch: master
 script:
-  - "cd mhcodner && npm i"
+  - "cd mhcodner"
+  - "npm i"
 after_success:
   - "npm run deploy"

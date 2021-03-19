@@ -35,8 +35,11 @@ bin/published.js
 test/**/public
 .gatsby-context.js
 .DS_Store
-public/
-mhcodner/public
+
+!mhcodner/public/
+mhcodner/public/*
+!mhcodner/public/CNAME
+
 node_modules/
 e2e-tests/gatsby-pnp/
 __diff_output__/
