@@ -4,15 +4,14 @@ before_script:
 node_js:
   - "stable"
 deploy:
-  provider: pages
+  provider: script
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
   local_dir: public
   keep-history: true
+  script: |
+    "cd mhcodner"
+    "npm i"
   on:
     branch: master
-script:
-  - "cd mhcodner"
-  - "npm i"
 after_success:
   - "npm run deploy"
