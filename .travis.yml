@@ -1,11 +1,16 @@
 language: node_js
 before_script:
-  - npm install -g gatsby-cli
+  - "npm i -g gatsby"
+  - "npm i"
 node_js:
-  - "12"
+  - "stable"
 deploy:
-  provider: script
-  script: cd mhcodner/ && yarn install && yarn run deploy
-  skip_cleanup: true
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: public
+  keep-history: true
   on:
     branch: master
+script:
+  - "cd mhcodner && npm run deploy"
