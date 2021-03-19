@@ -6,7 +6,7 @@ export default function PageFooter() {
       <ul className="copyright">
         <li>&copy; Michael Codner</li>
         <li>
-          Source: <a href="https://github.com/mhcodner/mhcodner.github.io">GitHub</a>
+          Source: <a target="blank" rel="noopener noreferrer" href="https://github.com/mhcodner/mhcodner.github.io">GitHub</a>
         </li>
       </ul>
     </div>

@@ -30,7 +30,9 @@ const IndexPage = () => (
             <h2 className="alt">
               I'm a Software & Cloud Services Engineer
             </h2>
-            <p>Find out more below</p>
+            <p>
+              <a href="#about"><i aria-label="Next section" className="fas fa-angle-double-down"></i></a>
+            </p>
           </header>
         </div>
       </section>
@@ -65,8 +67,11 @@ const IndexPage = () => (
           </div>
 
           <p>
-            As a HMC Engineer at Macquarie Cloud Services, I’m part of a team of cloud specialists
-            delivering hybrid cloud solutions for business customers.
+            At Macquarie Cloud Services I have spent my first 2 years as a tier 1 HMC Engineer.
+            I have now spent the last year and a half as a Tier 2 HMC Engineer.
+            <br />
+            As a HMC Engineer, I’m part of a team of cloud specialists delivering hybrid cloud
+            solutions for business customers.
           </p>
         </div>
       </section>
@@ -100,11 +105,9 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Having spent the past year and a half as a tier 2 engineer I have been providing mentorship to
+            the junior engineers. I am now the most senior non-manager engineer in my team and this brings
+            the responsibility of being a leader.
           </p>
         </div>
       </section>
@@ -116,11 +119,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            My job cannot be done by any individual, it requires teamwork.
           </p>
         </div>
       </section>
@@ -136,7 +135,7 @@ const IndexPage = () => (
             to the following
             <br />
             <a href="https://www.dropbox.com/s/1qwbgvqzdoirisv/Michael%20Codner%20Resume.pdf?dl=0"
-            target="_blank"><i class="fab fa-dropbox"></i> Dropbox link</a>
+            target="_blank" rel="noopener noreferrer"><i className="fab fa-dropbox"></i> Dropbox link</a>
           </p>
         </div>
       </section>
