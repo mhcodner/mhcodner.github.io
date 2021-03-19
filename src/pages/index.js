@@ -78,8 +78,17 @@ const IndexPage = () => (
           </header>
 
           <p>
-            I'm currently studying a bachelor of ICT engineering with a submajor in Software,
-            and a Diploma in Professional Engineering Practice.
+            I'm currently studying a <strong>Bachelor of ICT Engineering</strong> with a Submajor in Software,
+            and a Diploma in Professional Engineering Practice at <strong>The University of Technology, Sydney (UTS)</strong>.
+          </p>
+          <p>
+            Throughout my studies some of my favourite subjects have been the more practical subjects
+            such as:
+            <ul>
+              <li>Introductory Digital Systems</li>
+              <li>Software Engineering Practice</li>
+              <li>Internet Of Things</li>
+            </ul>
           </p>
         </div>
       </section>
@@ -124,8 +133,10 @@ const IndexPage = () => (
 
           <p>
             If you are interested in downloading a copy of my resume then you can go
-            to the following <a href="https://www.dropbox.com/s/1qwbgvqzdoirisv/Michael%20Codner%20Resume.pdf?dl=0"
-            target="_blank">Dropbox link</a>
+            to the following
+            <br />
+            <a href="https://www.dropbox.com/s/1qwbgvqzdoirisv/Michael%20Codner%20Resume.pdf?dl=0"
+            target="_blank"><i class="fab fa-dropbox"></i> Dropbox link</a>
           </p>
         </div>
       </section>
