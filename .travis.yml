@@ -13,6 +13,6 @@ deploy:
   on:
     branch: master
 script:
-  - "npm run build"
+  - "npm run test"
 after_success:
   - "npm run deploy"
