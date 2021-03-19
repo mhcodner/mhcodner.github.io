@@ -13,4 +13,6 @@ deploy:
   on:
     branch: master
 script:
-  - "cd mhcodner && npm run deploy"
+  - "cd mhcodner && npm i"
+after_success:
+  - "npm run deploy"
