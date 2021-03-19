@@ -41,12 +41,16 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          <a href="/#" className="image featured">
-            <img src={pic1} alt="" />
-          </a>
-
           <p>
-          As a HMC Engineer at Macquarie Cloud Services, I’m part of a team of cloud specialists delivering hybrid cloud solutions for business customers.
+            As an engineering professional I consistently aim to further develop myself both
+            professionally and personally. In my spare time I enjoy playing with video games,
+            tinkering with electronics, or taking photos.
+          </p>
+          <p>
+            Throughout the past few years I have grown to enjoy the infrastructure side of the
+            cloud. Day-to-day you'll find me working on the physical hardware of servers, switches,
+            routers, and firewalls, all the way up to dealing with the applications running on
+            a virtual machine. Having control over the whole tech-stack is my passion.
           </p>
         </div>
       </section>
@@ -56,12 +60,13 @@ const IndexPage = () => (
           <header>
             <h2>Experience</h2>
           </header>
+          <div className="image featured">
+            <img src={pic1} alt="" />
+          </div>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            As a HMC Engineer at Macquarie Cloud Services, I’m part of a team of cloud specialists
+            delivering hybrid cloud solutions for business customers.
           </p>
         </div>
       </section>
@@ -73,11 +78,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            I'm currently studying a bachelor of ICT engineering with a submajor in Software,
+            and a Diploma in Professional Engineering Practice.
           </p>
         </div>
       </section>
