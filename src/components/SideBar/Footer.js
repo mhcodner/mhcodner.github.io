@@ -8,8 +8,8 @@ export default function Footer({ socialLinks = [] }) {
           const { icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} target="_blank" rel="noopener noreferrer" className={`icon ${icon}`}>
-                <span className="label">{name}</span>
+              <a href={url} target="_blank" rel="noopener noreferrer" aria-label={name}>
+                <i className={`fa-2x fab ${icon}`}></i>
               </a>
             </li>
           );

@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("font-awesome.min.css");
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -377,7 +377,7 @@
 
 		li {
 			display: inline-block;
-			padding-left: 0;
+			padding: 1em;
 		}
 
 		a {
@@ -387,135 +387,6 @@
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
-	}
-
-/* Form */
-
-	form {
-		label {
-			display: block;
-			text-align: left;
-			margin-bottom: 0.5em;
-		}
-
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			position: relative;
-			-webkit-appearance: none;
-			display: block;
-			border: 0;
-			outline: 0;
-			background: #fff;
-			background: rgba(255, 255, 255, 0.75);
-			width: 100%;
-			border-radius: 0.35em;
-			padding: 0.75em 1em 0.75em 1em;
-			box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
-			border: solid 1px rgba(0, 0, 0, 0.15);
-			@include vendor('transition', 'all 0.35s ease-in-out');
-
-			&:focus {
-				box-shadow: 0 0 2px 1px #8ebebc;
-				background: #fff;
-			}
-		}
-
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select {
-			line-height: 1.25em;
-		}
-
-		textarea {
-			min-height: 14em;
-		}
-
-		::-webkit-input-placeholder {
-			color: #555 !important;
-		}
-
-		:-moz-placeholder {
-			color: #555 !important;
-		}
-
-		::-moz-placeholder {
-			color: #555 !important;
-		}
-
-		:-ms-input-placeholder {
-			color: #555 !important;
-		}
-
-		::-moz-focus-inner {
-			border: 0;
-		}
-	}
-
-/* Table */
-
-	table {
-		width: 100%;
-		text-align: left;
-
-		tbody {
-			tr {
-				&:nth-child(2n+2) {
-					background: #f4f4f4;
-				}
-			}
-		}
-
-		td {
-			padding: 0.5em 1em 0.5em 1em;
-		}
-
-		th {
-			text-align: left;
-			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url('../images/overlay.png');
-		}
-
-		thead {
-			background: #444;
-			color: #fff;
-		}
-
-		tfoot {
-			background: #eee;
-		}
-	}
-
-/* Button */
-
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
-		position: relative;
-		display: inline-block;
-		border-radius: 0.35em;
-		color: #fff !important;
-		text-decoration: none;
-		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
-		border: 0;
-		cursor: pointer;
-		@include vendor('background-image', ('linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))', 'url("../images/overlay.png")'));
-		@include vendor('transition', 'background-color 0.35s ease-in-out');
-
-		&:hover {
-			background-color: #9ececc;
-		}
-
-		&:active {
-			background-color: #7eaeac;
 		}
 	}
 
@@ -534,28 +405,6 @@
 			h3 {
 				font-size: 1em;
 			}
-		}
-	}
-
-/* Icons */
-
-	.icon {
-		text-decoration: none;
-
-		&:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-		}
-
-		> .label {
-			display: none;
 		}
 	}
 
@@ -670,10 +519,10 @@
 						display: block;
 						font-size: 0.8em;
 
-						&:before {
+						i {
 							position: absolute;
 							left: 0;
-							color: #41484c;
+							color: #81888c;
 							text-align: center;
 							width: 1.25em;
 							line-height: 1.75em;
@@ -773,6 +622,18 @@
 
 			&.four {
 				background-color: #e8edec;
+			}
+
+			&.five {
+				background-color: #e5eae9;
+			}
+
+			&.six {
+				background-color: #e4e9e8;
+			}
+
+			&.seven {
+				background-color: #e3e8e7;
 			}
 		}
 	}

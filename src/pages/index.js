@@ -4,14 +4,16 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic8 from '../assets/images/pic08.jpg';
 import pic1 from '../assets/images/pic01.jpg';
 
 const sections = [
-  { id: 'top', name: 'Intro', icon: 'fa-home' },
+  { id: 'top', name: 'Home', icon: 'fa-home' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'academics', name: 'Academics', icon: 'fa-book' },
-  { id: 'professional', name: 'Professional History', icon: 'fa-envelope' },
+  { id: 'experience', name: 'Experience', icon: 'fa-user-tie' },
+  { id: 'education', name: 'Education', icon: 'fa-university' },
+  { id: 'leadership', name: 'Leadership', icon: 'fa-book-reader' },
+  { id: 'teamwork', name: 'Teamwork', icon: 'fa-users' },
+  { id: 'resume', name: 'Resume', icon: 'fa-file' },
 ];
 
 const IndexPage = () => (
@@ -24,7 +26,8 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hi! I'm <strong>Michael</strong>
-              <br />
+            </h2>
+            <h2 className="alt">
               I'm a Software & Cloud Services Engineer
             </h2>
             <p>Find out more below</p>
@@ -48,10 +51,10 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="academics" className="three">
+      <section id="experience" className="three">
         <div className="container">
           <header>
-            <h2>Academics</h2>
+            <h2>Experience</h2>
           </header>
 
           <p>
@@ -63,10 +66,58 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="professional" className="four">
+      <section id="education" className="four">
         <div className="container">
           <header>
-            <h2>Professional History</h2>
+            <h2>Education</h2>
+          </header>
+
+          <p>
+            The element of time, sem ante ullamcorper dolor nulla quam placerat
+            viverra environment is not with our customers. Free makeup and skirt
+            until the mouse. Japan this innovative and ultricies carton salad
+            clinical ridiculous now passes from enhanced. Mauris pot innovative
+            care for my pain.
+          </p>
+        </div>
+      </section>
+
+      <section id="leadership" className="five">
+        <div className="container">
+          <header>
+            <h2>Leadership</h2>
+          </header>
+
+          <p>
+            The element of time, sem ante ullamcorper dolor nulla quam placerat
+            viverra environment is not with our customers. Free makeup and skirt
+            until the mouse. Japan this innovative and ultricies carton salad
+            clinical ridiculous now passes from enhanced. Mauris pot innovative
+            care for my pain.
+          </p>
+        </div>
+      </section>
+
+      <section id="teamwork" className="six">
+        <div className="container">
+          <header>
+            <h2>Teamwork</h2>
+          </header>
+
+          <p>
+            The element of time, sem ante ullamcorper dolor nulla quam placerat
+            viverra environment is not with our customers. Free makeup and skirt
+            until the mouse. Japan this innovative and ultricies carton salad
+            clinical ridiculous now passes from enhanced. Mauris pot innovative
+            care for my pain.
+          </p>
+        </div>
+      </section>
+
+      <section id="resume" className="seven">
+        <div className="container">
+          <header>
+            <h2>Resume</h2>
           </header>
 
           <p>
