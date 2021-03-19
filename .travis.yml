@@ -7,14 +7,12 @@ cache:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $GH_TOKEN
   local_dir: public
   keep-history: true
   on:
     branch: master
-before_script:
-  - "npm i -g gatsby"
 script:
-  - "npm i"
+  - "npm run build"
 after_success:
   - "npm run deploy"
