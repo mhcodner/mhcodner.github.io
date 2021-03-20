@@ -70,7 +70,7 @@ const IndexPage = () => (
             At Macquarie Cloud Services I have spent my first 2 years as a tier 1 HMC Engineer.
             I have now spent the last year and a half as a Tier 2 HMC Engineer.
             <br />
-            As a HMC Engineer, I’m part of a team of cloud specialists delivering hybrid cloud
+            As a HMC Engineer, I am part of a team of cloud specialists delivering hybrid cloud
             solutions for business customers.
           </p>
         </div>
