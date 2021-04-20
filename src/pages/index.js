@@ -69,7 +69,14 @@ const IndexPage = () => (
             I have now spent the last year and a half as a Tier 2 HMC Engineer.
             <br />
             As a HMC Engineer, I am part of a team of cloud specialists delivering hybrid cloud
-            solutions for business customers.
+            solutions for business customers. My role currently consists of being one of the engineers
+            in direct contact with technical experts from our customers to provide the first and second
+            level of support across a wide variety of compute and network issues.
+            <br />
+            I also spend a significant amount of time dealing with Australian government agencies through
+            supporting the operations of our Secure Internet Gateway (SIG). This usually involves
+            diagnosing complex routing and firewall issues, and dealing with complex business logic
+            surrounding emails.
           </p>
         </div>
       </section>
