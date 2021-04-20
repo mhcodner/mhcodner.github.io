@@ -9,7 +9,7 @@ import pic1 from '../assets/images/pic01.jpg';
 const sections = [
   { id: 'top', name: 'Home', icon: 'fa-home' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'experience', name: 'Experience', icon: 'fa-user-tie' },
+  { id: 'experience', name: 'Professional Experience', icon: 'fa-user-tie' },
   { id: 'education', name: 'Education', icon: 'fa-university' },
   { id: 'leadership', name: 'Leadership', icon: 'fa-book-reader' },
   { id: 'teamwork', name: 'Teamwork', icon: 'fa-users' },
@@ -57,7 +57,7 @@ const IndexPage = () => (
       <section id="experience" className="three">
         <div className="container">
           <header>
-            <h2>Experience</h2>
+            <h2>Professional Experience</h2>
           </header>
           <div className="image featured">
             <img src={pic1} alt="" />
@@ -91,6 +91,11 @@ const IndexPage = () => (
               <li>Software Engineering Practice</li>
               <li>Internet Of Things</li>
             </ul>
+          </p>
+          <p>
+            While UTS has taught me a lot of soft skills, the practical subjects are where I do best as I am
+            passionate about getting the work done and learning about how to apply my skills to the real world.
+            This is evident in the above mentioned practical subjects being some of my highest academic grades.
           </p>
         </div>
       </section>
