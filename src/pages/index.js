@@ -171,7 +171,7 @@ const IndexPage = () => (
             their strengths and weaknesses.
             <br />
             Evidence of my teamwork can be seen particularly when we deal with major incidents at work. When
-            dealing with a major incident we all work together with different roles focused towards the resolution
+            dealing with a major incident we all work together with different roles focused towards the resolution,
             such as can be seen from the following handover:
           </p>
           <div className="image featured">
