@@ -6,6 +6,7 @@ import SideBar from '../components/SideBar';
 
 import pic1 from '../assets/images/pic01.jpg';
 import idspic from '../assets/images/ids.jpg';
+import handover from '../assets/images/handover.png'
 
 const sections = [
   { id: 'top', name: 'Home', icon: 'fa-home' },
@@ -135,6 +136,18 @@ const IndexPage = () => (
             Having spent the past year and a half as a tier 2 engineer I have been providing mentorship to
             the junior engineers. I am now <strong>the most senior non-manager engineer</strong> in my team and this brings
             the responsibility of being a leader.
+            <br />
+            Being a leader to my team is important as they look up to me in times of uncertainty when they are unsure
+            of how best to proceed with an issue. This can be both technical assistance and assistance with their soft
+            skills. The below (redacted) screenshot from our shift handover is an example of something being escalated to myself:
+          </p>
+          <div className="image featured">
+            <img src={handover} alt="Logic board" />
+          </div>
+          <p>
+            Following the correct process is important in just about any job but especially important when you are leading
+            a team of engineers. If you can't follow the process yourself then you can't expect your team to also follow
+            the process.
           </p>
         </div>
       </section>
