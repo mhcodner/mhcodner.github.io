@@ -81,11 +81,11 @@ const IndexPage = () => (
           <p>
             As part of my job I regularly gain industry certifications. So far under my belt I have:
             <ul>
-              <li>Cisco Certified Network Associate (CCNA)</li>
-              <li>ITIL v3 Foundations</li>
-              <li>RedHat Certified Systems Administrator (RHCSA)</li>
-              <li>Microsoft Azure Administrator (AZ-103)</li>
-              <li>Fortinet Network Security Architect (NSE 7)</li>
+              <li>Cisco Certified Network Associate <strong>(CCNA)</strong></li>
+              <li><strong>ITIL v3</strong> Foundations</li>
+              <li>RedHat Certified Systems Administrator <strong>(RHCSA)</strong></li>
+              <li>Microsoft Azure Administrator <strong>(AZ-103)</strong></li>
+              <li>Fortinet Network Security Architect <strong>(NSE 7)</strong></li>
             </ul>
           </p>
         </div>
@@ -133,7 +133,7 @@ const IndexPage = () => (
 
           <p>
             Having spent the past year and a half as a tier 2 engineer I have been providing mentorship to
-            the junior engineers. I am now the most senior non-manager engineer in my team and this brings
+            the junior engineers. I am now <strong>the most senior non-manager engineer</strong> in my team and this brings
             the responsibility of being a leader.
           </p>
         </div>
