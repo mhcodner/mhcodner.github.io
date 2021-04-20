@@ -78,6 +78,16 @@ const IndexPage = () => (
             diagnosing complex routing and firewall issues, and dealing with complex business logic
             surrounding emails.
           </p>
+          <p>
+            As part of my job I regularly gain industry certifications. So far under my belt I have:
+            <ul>
+              <li>Cisco Certified Network Associate (CCNA)</li>
+              <li>ITIL v3 Foundations</li>
+              <li>RedHat Certified Systems Administrator (RHCSA)</li>
+              <li>Microsoft Azure Administrator (AZ-103)</li>
+              <li>Fortinet Network Security Architect (NSE 7)</li>
+            </ul>
+          </p>
         </div>
       </section>
 
