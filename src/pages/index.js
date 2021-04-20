@@ -5,6 +5,7 @@ import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
 import pic1 from '../assets/images/pic01.jpg';
+import idspic from '../assets/images/ids.jpg';
 
 const sections = [
   { id: 'top', name: 'Home', icon: 'fa-home' },
@@ -60,7 +61,7 @@ const IndexPage = () => (
             <h2>Professional Experience</h2>
           </header>
           <div className="image featured">
-            <img src={pic1} alt="" />
+            <img src={pic1} alt="Cloud" />
           </div>
 
           <p>
@@ -97,6 +98,13 @@ const IndexPage = () => (
             passionate about getting the work done and learning about how to apply my skills to the real world.
             This is evident in the above mentioned practical subjects being some of my highest academic grades.
           </p>
+          <p>
+            The following image is from one of the best practical assignments in Introductory Digital Systems,
+            where we programmed a logic board after soldering it together:
+          </p>
+          <div className="image featured">
+            <img src={idspic} alt="Logic board" />
+          </div>
         </div>
       </section>
 
