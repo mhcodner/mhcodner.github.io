@@ -30,9 +30,6 @@ const IndexPage = () => (
             <h2 className="alt">
               I'm a Software & Cloud Services Engineer
             </h2>
-            <p>
-              <a href="#about"><i aria-label="Next section" className="fas fa-angle-double-down"></i></a>
-            </p>
           </header>
         </div>
       </section>
