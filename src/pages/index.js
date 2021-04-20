@@ -7,6 +7,7 @@ import SideBar from '../components/SideBar';
 import pic1 from '../assets/images/pic01.jpg';
 import idspic from '../assets/images/ids.jpg';
 import handover from '../assets/images/handover.png'
+import MIM from '../assets/images/MIM.png'
 
 const sections = [
   { id: 'top', name: 'Home', icon: 'fa-home' },
@@ -144,7 +145,7 @@ const IndexPage = () => (
             being escalated to myself:
           </p>
           <div className="image featured">
-            <img src={handover} alt="Logic board" />
+            <img src={handover} alt="escalation" />
           </div>
           <p>
             Following the correct process is important in just about any job but especially important when you are
@@ -161,8 +162,21 @@ const IndexPage = () => (
           </header>
 
           <p>
-            My job cannot be done by any individual, it requires teamwork.
+            Teamwork is extremely important in any engineering role. In my team it is especially important
+            as we operate 24/7. This means that we operate on a shift basis and if you're not on time for
+            your shift then you are letting the team down.
+            <br />
+            I have been proficient at working in a team environment and excel at understanding the strengths
+            of my team members so that I can have them work on the most appropriate tasks and tickets for
+            their strengths and weaknesses.
+            <br />
+            Evidence of my teamwork can be seen particularly when we deal with major incidents at work. When
+            dealing with a major incident we all work together with different roles focused towards the resolution
+            such as can be seen from the following handover:
           </p>
+          <div className="image featured">
+            <img src={MIM} alt="teamwork" />
+          </div>
         </div>
       </section>
 
