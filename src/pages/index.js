@@ -71,6 +71,9 @@ const IndexPage = () => (
             is evidenced by my ever-growing collection of <strong>industry certifications</strong> and the excellent feedback
             provided by both customers and colleagues.
             <br />
+            One of my greatest contributions at work is the development of some automation around our Fortinet firewalls
+            and the automated patching of our ESXi hosts.
+            <br />
             In terms of excellent customer service I have been admitted to the Macquarie Telecom Group Heartbeat club
             several times for going above and beyond. Heartbeat recognises and rewards employees that demonstrate exceptional
             Personal Accountable Service (PAS) to our customers and prospective customers.
