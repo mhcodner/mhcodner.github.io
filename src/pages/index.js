@@ -6,7 +6,6 @@ import SideBar from '../components/SideBar';
 
 import pic1 from '../assets/images/pic01.jpg';
 import idspic from '../assets/images/ids.jpg';
-import handover from '../assets/images/handover.png'
 import MIM from '../assets/images/MIM.png'
 
 const sections = [
@@ -67,8 +66,28 @@ const IndexPage = () => (
           </div>
 
           <p>
+            In a professional setting, I create value through my <strong>industry leading knowledge</strong> and
+            fast <strong>problem solving skills</strong> which prove critical in my day to day duties. This
+            is evidenced by my ever-growing collection of <strong>industry certifications</strong> and the excellent feedback
+            provided by both customers and colleagues.
+            <br />
+            In terms of excellent customer service I have been admitted to the Macquarie Telecom Group Heartbeat club
+            several times for going above and beyond. Heartbeat recognises and rewards employees that demonstrate exceptional
+            Personal Accountable Service (PAS) to our customers and prospective customers.
+            <br />
+            In terms of certifications, so far under my belt I have the following:
+            <ul>
+              <li>Cisco Certified Network Associate <strong>(CCNA)</strong></li>
+              <li><strong>ITIL v3</strong> Foundations</li>
+              <li>RedHat Certified Systems Administrator <strong>(RHCSA)</strong></li>
+              <li>Microsoft Azure Administrator <strong>(AZ-104)</strong></li>
+              <li>Fortinet Network Security Architect <strong>(NSE 7)</strong></li>
+            </ul>
+          </p>
+          <p>
             At Macquarie Cloud Services I have spent my first 2 years as a tier 1 HMC Engineer.
-            I have now spent the last year and a half as a Tier 2 HMC Engineer.
+            I have now spent the last 2 years as a Tier 2 HMC Engineer, becoming the most senior non-manager
+            engineer in the team.
             <br />
             As a HMC Engineer, I am part of a team of cloud specialists delivering hybrid cloud
             solutions for business customers. My role currently consists of being one of the engineers
@@ -79,16 +98,6 @@ const IndexPage = () => (
             supporting the operations of our Secure Internet Gateway (SIG). This usually involves
             diagnosing complex routing and firewall issues, and dealing with complex business logic
             surrounding emails.
-          </p>
-          <p>
-            As part of my job I regularly gain industry certifications. So far under my belt I have:
-            <ul>
-              <li>Cisco Certified Network Associate <strong>(CCNA)</strong></li>
-              <li><strong>ITIL v3</strong> Foundations</li>
-              <li>RedHat Certified Systems Administrator <strong>(RHCSA)</strong></li>
-              <li>Microsoft Azure Administrator <strong>(AZ-103)</strong></li>
-              <li>Fortinet Network Security Architect <strong>(NSE 7)</strong></li>
-            </ul>
           </p>
         </div>
       </section>
@@ -106,11 +115,12 @@ const IndexPage = () => (
           </p>
           <p>
             Throughout my studies some of my favourite subjects have been the more practical subjects
-            such as:
+            which is evident in the marks received for these subjects:
             <ul>
-              <li>Introductory Digital Systems</li>
-              <li>Software Engineering Practice</li>
-              <li>Internet Of Things</li>
+              <li>Introductory Digital Systems - <strong>Distinction mark of 83</strong></li>
+              <li>Software Engineering Practice - <strong>High Distinction mark of 98</strong></li>
+              <li>Internet Of Things - <strong>High Distinction mark of 90</strong></li>
+              <li>Engineering Computations - <strong>High Distinction mark of 90</strong></li>
             </ul>
           </p>
           <p>
@@ -135,19 +145,17 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Having spent the past year and a half as a tier 2 engineer I have been providing mentorship to
+            Having spent the past 2 years as a tier 2 engineer I have been providing mentorship to
             the junior engineers. I am now <strong>the most senior non-manager engineer</strong> in my team and
             this brings the responsibility of being a leader.
             <br />
-            Being a leader to my team is important as they look up to me in times of uncertainty when they are
-            unsure of how best to proceed with an issue. This can be both technical assistance and assistance with
-            their soft skills. The below (redacted) screenshot from our shift handover is an example of something
-            being escalated to myself:
-          </p>
-          <div className="image featured">
-            <img src={handover} alt="escalation" />
-          </div>
-          <p>
+            My leadership skills are highlighted especially well when dealing with major incidents as these
+            require co-ordination and teamwork.
+            <br />
+            Being a leader I always lead by example and perform as best as I can to have the rest of my team
+            follow in my footsteps. While I am senior and can instruct other engineers on what to do, I
+            still prefer to be active and perform the same duties as they do.
+            <br />
             Following the correct process is important in just about any job but especially important when you are
             leading a team of engineers. If you can't follow the process yourself then you can't expect your team
             to also follow the process.
@@ -162,11 +170,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Teamwork is extremely important in any engineering role. In my team it is especially important
-            as we operate 24/7. This means that we operate on a shift basis and if you're not on time for
-            your shift then you are letting the team down.
-            <br />
-            I have been proficient at working in a team environment and excel at understanding the strengths
+            I am excellent at working in a team environment and excel at understanding the strengths
             of my team members so that I can have them work on the most appropriate tasks and tickets for
             their strengths and weaknesses.
             <br />
