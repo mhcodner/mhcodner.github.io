@@ -117,7 +117,7 @@ const IndexPage = () => (
             (UTS)</strong>.
           </p>
           <p>
-            Throughout my studies some of my favourite subjects have been the more practical subjects
+            As a student I have performed exceptionally well at the more practical subjects
             which is evident in the marks received for these subjects:
             <ul>
               <li>Introductory Digital Systems - <strong>Distinction mark of 83</strong></li>
