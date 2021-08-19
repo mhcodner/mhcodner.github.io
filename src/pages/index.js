@@ -72,7 +72,8 @@ const IndexPage = () => (
             provided by both customers and colleagues.
             <br />
             One of my greatest contributions at work is the development of some automation around our Fortinet firewalls
-            and the automated patching of our ESXi hosts.
+            and the automated patching of our ESXi hosts. My automation has allowed the team to receive daily reports on
+            our progress of upgrade tasks and report on any issues identified.
             <br />
             In terms of excellent customer service I have been admitted to the Macquarie Telecom Group Heartbeat club
             several times for going above and beyond. Heartbeat recognises and rewards employees that demonstrate exceptional
@@ -114,7 +115,7 @@ const IndexPage = () => (
           <p>
             I'm currently studying a <strong>Bachelor of ICT Engineering</strong> with a Submajor in Software,
             and a Diploma in Professional Engineering Practice at <strong>The University of Technology, Sydney
-            (UTS)</strong>.
+              (UTS)</strong>.
           </p>
           <p>
             As a student I have performed exceptionally well at the more practical subjects
@@ -149,19 +150,20 @@ const IndexPage = () => (
 
           <p>
             Having spent the past 2 years as a tier 2 engineer I have been providing mentorship to
-            the junior engineers. I am now <strong>the most senior non-manager engineer</strong> in my team and
-            this brings the responsibility of being a leader.
+            the junior engineers in my team. I am now <strong>the most senior non-manager engineer</strong> in
+            my team and this brings the responsibility of being a leader.
             <br />
             My leadership skills are highlighted especially well when dealing with major incidents as these
-            require co-ordination and teamwork.
-            <br />
-            Being a leader I always lead by example and perform as best as I can to have the rest of my team
-            follow in my footsteps. While I am senior and can instruct other engineers on what to do, I
-            still prefer to be active and perform the same duties as they do.
+            require co-ordination and teamwork. I always take ownership of issues and delegate tasks to
+            appropriate resources.
             <br />
             Following the correct process is important in just about any job but especially important when you are
             leading a team of engineers. If you can't follow the process yourself then you can't expect your team
             to also follow the process.
+            <br />
+            Being a leader I always lead by example and perform as best as I can to have the rest of my team
+            follow in my footsteps. While I am senior and can instruct other engineers on what to do, I
+            still prefer to be active and perform the same duties as they do.
           </p>
         </div>
       </section>
@@ -198,7 +200,7 @@ const IndexPage = () => (
             to the following
             <br />
             <a href="https://www.dropbox.com/s/1qwbgvqzdoirisv/Michael%20Codner%20Resume.pdf?dl=0"
-            target="_blank" rel="noopener noreferrer"><i className="fab fa-dropbox"></i> Dropbox link</a>
+              target="_blank" rel="noopener noreferrer"><i className="fab fa-dropbox"></i> Dropbox link</a>
           </p>
         </div>
       </section>
