@@ -53,6 +53,21 @@ const IndexPage = () => (
             routers, and firewalls, all the way up to dealing with the applications running on
             a virtual machine. Having control over the whole tech-stack is my passion.
           </p>
+          <p>
+            What I have learnt from my time as an engineer within software and cloud services is
+            that the technology is constantly changing. I plan to continue developing myself
+            professionally by completing more industry certifications and transfer that knowledge
+            to my team. As a professional I have the following skills:
+            <ul>
+              <li>Strong networking skills</li>
+              <li>Advanced Linux experience</li>
+              <li>Advanced VMware ESXi and vCenter experience</li>
+              <li>Proficient programming in multiple programming languages shown on <a href="https://github.com/mhcodner" target="_blank">my GitHub profile</a></li>
+              <li>Strong communication skills - evident in my excellent customer service feedback</li>
+              <li>Leadership - strong leadership skills outlined in my <a href="#teamwork">teamwork</a> and <a href="#leadership">leadership</a> sections.</li>
+              <li>Self-learning - demonstrated by my certifications which are self-taught</li>
+            </ul>
+          </p>
         </div>
       </section>
 
@@ -121,10 +136,26 @@ const IndexPage = () => (
             As a student I have performed exceptionally well at the more practical subjects
             which is evident in the marks received for these subjects:
             <ul>
-              <li>Introductory Digital Systems - <strong>Distinction mark of 83</strong></li>
-              <li>Software Engineering Practice - <strong>High Distinction mark of 98</strong></li>
-              <li>Internet Of Things - <strong>High Distinction mark of 90</strong></li>
-              <li>Engineering Computations - <strong>High Distinction mark of 90</strong></li>
+              <li>
+                Introductory Digital Systems - <strong>Distinction mark of 83</strong>
+                <br />
+                - This subject allowed me to gain a fundamental understanding of electronics at a low level
+              </li>
+              <li>
+                Software Engineering Practice - <strong>High Distinction mark of 98</strong>
+                <br />
+                - This subject provided a real world experience of working on software projects in an agile workplace
+              </li>
+              <li>
+                Internet Of Things - <strong>High Distinction mark of 90</strong>
+                <br />
+                - This subject taught me fundamentals of IoT communication protocols
+              </li>
+              <li>
+                Engineering Computations - <strong>High Distinction mark of 90</strong>
+                <br />
+                - This subject helped advance my skills in Excel
+              </li>
             </ul>
           </p>
           <p>
@@ -151,7 +182,8 @@ const IndexPage = () => (
           <p>
             Having spent the past 2 years as a tier 2 engineer I have been providing mentorship to
             the junior engineers in my team. I am now <strong>the most senior non-manager engineer</strong> in
-            my team and this brings the responsibility of being a leader.
+            my team and this brings the responsibility of being a leader. This is demonstrated by my manager
+            entrusting me to lead the team when he is on leave.
             <br />
             My leadership skills are highlighted especially well when dealing with major incidents as these
             require co-ordination and teamwork. I always take ownership of issues and delegate tasks to
@@ -161,7 +193,7 @@ const IndexPage = () => (
             leading a team of engineers. If you can't follow the process yourself then you can't expect your team
             to also follow the process.
             <br />
-            Being a leader I always lead by example and perform as best as I can to have the rest of my team
+            <strong>Being a leader I always lead by example</strong> and perform as best as I can to have the rest of my team
             follow in my footsteps. While I am senior and can instruct other engineers on what to do, I
             still prefer to be active and perform the same duties as they do.
           </p>
@@ -175,8 +207,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            I am excellent at working in a team environment and excel at understanding the strengths
-            of my team members so that I can have them work on the most appropriate tasks and tickets for
+            I am excellent at working in a team environment and <strong>excel at understanding the strengths
+            of my team members</strong> so that I can have them work on the most appropriate tasks and tickets for
             their strengths and weaknesses.
             <br />
             Evidence of my teamwork can be seen particularly when we deal with major incidents at work. When
