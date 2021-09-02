@@ -62,7 +62,7 @@ const IndexPage = () => (
               <li>Strong networking skills</li>
               <li>Advanced Linux experience</li>
               <li>Advanced VMware ESXi and vCenter experience</li>
-              <li>Proficient programming in multiple programming languages shown on <a href="https://github.com/mhcodner" target="_blank">my GitHub profile</a></li>
+              <li>Proficient programming in multiple programming languages shown on <a href="https://github.com/mhcodner" rel="noreferrer" target="_blank">my GitHub profile</a></li>
               <li>Strong communication skills - evident in my excellent customer service feedback</li>
               <li>Leadership - strong leadership skills outlined in my <a href="#teamwork">teamwork</a> and <a href="#leadership">leadership</a> sections.</li>
               <li>Self-learning - demonstrated by my certifications which are self-taught</li>
